@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 df = pd.read_csv('Answers/Answers.csv', encoding='ISO-8859-1')
 
-end = 10**6
+end = 10**3
 df = df[0:end]
 
 
